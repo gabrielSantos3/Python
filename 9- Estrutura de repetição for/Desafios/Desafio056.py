@@ -8,11 +8,9 @@ Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas e mostre:
 -> Quantas mulheres têm menos de 20 anos.
 '''
 
-somaIdade = 0
-MediaIdade = 0
+somaIdade = MediaIdade = maiorIdadeHomem = totMulher20 = 0
+ 
 nomeVelho = ''
-maiorIdadeHomem = 0
-totMulher20 = 0
 
 for i in range(1, 5):
     print(f'\n----- {i}ª PESSOA -----\n')
